@@ -6,11 +6,12 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 15:23:34 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/14 16:21:52 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 16:42:26 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
+#ifndef FT_TRACEROUTE_H
+#define FT_TRACEROUTE_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -42,4 +43,6 @@ typedef struct s_params
     int socket_fd;
 } t_params;
 
-t_params params;
+extern t_params params;
+
+#endif

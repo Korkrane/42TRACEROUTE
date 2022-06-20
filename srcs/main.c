@@ -6,11 +6,11 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 15:28:32 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/14 16:31:15 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 15:47:53 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "includes/ft_traceroute.h"
+#include "../includes/ft_traceroute.h"
 
 int help()
 {
@@ -31,7 +31,7 @@ void init()
     params.seq = 1;
     params.socket_fd = -1;
 
-    params.process_id = getpid();
+    params.pid = getpid();
 }
 
 void error_output(char *message)
