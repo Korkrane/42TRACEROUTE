@@ -6,11 +6,13 @@
 /*   By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/14 15:28:32 by bahaas            #+#    #+#             */
-/*   Updated: 2022/06/20 15:47:53 by bahaas           ###   ########.fr       */
+/*   Updated: 2022/06/20 17:12:30 by bahaas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ft_traceroute.h"
+
+t_params params;
 
 int help()
 {

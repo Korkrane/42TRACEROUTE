@@ -6,21 +6,13 @@
 #    By: bahaas <bahaas@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/03/04 15:07:09 by bahaas            #+#    #+#              #
-<<<<<<< HEAD
-#    Updated: 2022/06/20 15:47:12 by bahaas           ###   ########.fr        #
-=======
-#    Updated: 2022/06/14 15:22:46 by bahaas           ###   ########.fr        #
->>>>>>> ed0dbd0c2c36c70da37806b44eaac5c5e3f3d62d
+#    Updated: 2022/06/20 17:08:57 by bahaas           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME			= ft_traceroute
 
-<<<<<<< HEAD
 SRCS			= $(wildcard srcs/*.c)\
-=======
-SRCS			= main.c
->>>>>>> ed0dbd0c2c36c70da37806b44eaac5c5e3f3d62d
 
 CC				= clang
 
